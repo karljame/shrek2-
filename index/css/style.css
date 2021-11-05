@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+body {
+  padding-top: 50px;
+font-family: 'Irish Grover', cursive;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.navbar-default {
+    background-color: #fff;
+	border:0px;
+}
+
+
+.hero {
+    position: relative;
+    min-height: 800px;
+    color: #fff;
+}
+.video-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.8;
+    z-index: 1;
+}
+.video-wrap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.bg-video {
+    height: 100%;
+    min-width: 100%;
+    width: auto;
+    overflow-y: hidden;
+    z-index: -999;
+}
+.hero-content {
+    position: relative;
+    top: 120px;
+    z-index: 5;
+}
+.logo {
+	width:200px;
+}
+.about {
+	background:#fff;
+	padding-top:50px;
+}
+.section_title {
+	color:#000;
+	margin-bottom:40px;
+}
+.section_body {
+	color:#000;
+	font-size:18px;
+}
+.movies {
+	min-height:400px;
+	background-color:#363421;
+	color:#fff;
+}
+.movies .container {
+	padding-top:50px;
+}
+.margin-top-50 {
+	margin-top:50px;
+}
+.contact {
+	color:#000;
+	padding-top:50px;
+	padding-bottom:50px;
+}
